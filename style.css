@@ -9,10 +9,13 @@ body{
     background-image: url(./pexels-photo-553575.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+   background-attachment: fixed;
 }
+
 .container{
     font-size: 40px;
-    width: 80%;
+    max-width:80%;
+    min-width:500px;
     font-weight: bolder;
     margin: 50px auto;
     backdrop-filter: blur(30px);
@@ -24,10 +27,12 @@ body{
     
 }
 ul{
+    display:flex;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    flex-wrap: wrap;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
 
 }
 li{
